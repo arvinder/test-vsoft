@@ -17,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::middleware(['api_token'])->group(function () {
+    Route::post('send/{api_token}', 'MailController@send')->name('mail.send');
+});

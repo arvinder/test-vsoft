@@ -113,5 +113,7 @@ return [
     */
 
     'password_timeout' => 10800,
-
+    'keys' => [
+        'api' => env('API_KEY'),
+    ],
 ];
