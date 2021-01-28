@@ -25,7 +25,7 @@ The primary goal is for the functionality to work as expected. The idea is to sp
 - &#x2611; Build a mail using a standard Laravel functions for it and default email provider (the one that is easiest for you to setup)
 - &#x2611; Build a job to dispatch email, use the default Redis/Horizon setup
 - &#x2611; Write a unit test that makes sure that the job is dispatched correctly and also is not dispatched if there’s a validation error
-Bonus requirements:
+### Bonus requirements:
 - &#x2611; Have an endpoint api/list that lists all sent emails with email, subject, body and downloadable attachments
 - &#x2611; Unit test the above mentioned route (test for expected subject/body/attachment name)
 
