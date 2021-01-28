@@ -39,3 +39,6 @@ The primary goal is for the functionality to work as expected. The idea is to sp
 - sudo systemctl enable redis-server
 - sudo service redis-server start
 - php vendor/phpunit/phpunit/phpunit tests/Feature/MailTest.php 
+
+#### Postman Collection Link
+https://www.getpostman.com/collections/230d26809c067d48c1cb
