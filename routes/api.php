@@ -19,4 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 Route::middleware(['api_token'])->group(function () {
     Route::post('send/{api_token}', 'MailController@send')->name('mail.send');
+    Route::get('list/{api_token}', 'MailController@index')->name('mail.index');
 });
