@@ -81,7 +81,7 @@ class MailTest extends TestCase
         $body = "test body";
 
         $post_data['emails'][] = [
-                "mail" => "arvinder.singh@parsoftwares.com",
+                "mail" => "arvinder.arjinder@gmail.com",
                 "subject" => "Hello 5, how are you?",
                 "body" => "I am sending this email for testing attachments",
                 "attachments" => [
@@ -90,7 +90,7 @@ class MailTest extends TestCase
                 ]
             ];
         $post_data['emails'][] = [
-            "mail" => "arvinder.singh@parsoftwares.com",
+            "mail" => "arvinder.arjinder@gmail.com",
             "subject" => "Email 2",
             "body" => "No Attachments",
         ];
